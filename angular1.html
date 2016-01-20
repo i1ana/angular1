@@ -8,14 +8,14 @@
 <body ng-controller="buttonClick">
 
 <button ng-click="clickMe()"> Click me! </button>
-		<h1 ng-show"surprise">Why hello...</h1>
-		
+		<div ng-show="surprise"><h1>Why hello...</h1></div>
+
 <button ng-click="listClick()">Click me too!</button>
-	<ul>
+	<div ng-hide="hideTwo"><ul>
 		<li>One</li>
 		<li>Two</li>
 		<li>Three</li>
-	</ul>
+	</ul></div>
 <script type="text/javascript" src="angular1.js"></script>
 
 </body>
