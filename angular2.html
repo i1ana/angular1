@@ -7,8 +7,8 @@
 
 </head>
 <body ng-controller="bacon">
-	<h2> BACON BACON OM NOM NOM </h2>
-	<div ng-mouseover="font-color:pink" ng-class="colorChange">
+	<h2 class=bacon ng-if="exclaimation"> BACON BACON OM NOM NOM </h2>
+	<div ng-mouseover="color:">
 		<p>Bacon ipsum dolor amet exercitation est ad alcatra ball tip filet mignon pig tongue chuck. Venison ribeye cillum in ut mollit. Leberkas ribeye eiusmod excepteur andouille cillum. Spare ribs duis dolore labore pastrami. Biltong magna kevin beef tri-tip tail chuck. </p>
 
 		<p>Est jerky turkey meatloaf tail. Ad tail pastrami esse strip steak in lorem sed. Sirloin cupidatat turducken enim elit ut quis. Nostrud qui shoulder et doner. Turducken spare ribs jerky, elit dolore pancetta leberkas deserunt jowl officia culpa tenderloin fugiat strip steak bacon. Adipisicing nostrud elit doner. </p>
@@ -17,7 +17,7 @@
 
 	</div>
 
-		<a href="http://bacon.com">Types of Bacon</a>
+		<a ng-if="link" href="http://bacon.com">Types of Bacon</a>
 
 
 
