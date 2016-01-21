@@ -1,23 +1,26 @@
 angular.module('pink', [])
-
-angular.module('pink')
-	.controller('bacon', [$scope, function($scope){
+	.controller('bacon', ['$scope', function($scope){
 		
-		// $scope.mouseOver= function(){
-		// 	$scope.mouseOver=
+		$scope.switch = false
 
-		$scope.exclaimation = !$scope.exclaimation		
+		$scope.mouseEnter = function(){
+			$scope.switch = true
+
+		// $scope.exclaimation = !$scope.exclaimation	
+
+		$scope.mouseLeave = function(){
+			$scope.switch = false
+		}	
 	}
 
 
-	$scope.exclaimation= false 
+	// $scope.exclaimation= false 
 
-	$scope.link = function(){
-		prompt("Do you want to click this link?")
-		if("cancel"){
-			
-		}
-	}
+	// $scope.link = function(){
+	// 	var input = prompt("Do you want to click this link?")
+	// 	if(input === true){
+	// 		$scope.hideLink ==
+	// 	}
 
 	}])
 
