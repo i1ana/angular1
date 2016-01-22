@@ -1,0 +1,17 @@
+.bigButton { 
+	display: block;
+	position: center;
+	height: 700px;
+	width: 700px;
+	background-color: #f1c40f;
+	color: #8e44ad;
+	border: 2px solid #8e44ad;
+	font-size: 50px;
+	font-family: 'Arial', sans-serif; 
+}
+
+.popUp { 
+	position: fixed;
+
+
+}

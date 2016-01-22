@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app='button'>
+<head>
+<title>Intro to Angular </title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+
+</head>
+<body ng-controller="buttonClick">
+
+<button ng-click="clickMe()"> Click me! </button>
+		<div ng-show="surprise"><h1>Why hello...</h1></div>
+
+<button ng-click="listClick()">Click me too!</button>
+	<div ng-hide="hideTwo"><ul>
+		<li>One</li>
+		<li>Two</li>
+		<li>Three</li>
+	</ul></div>
+<script type="text/javascript" src="angular1.js"></script>
+
+</body>
+
+</html>
