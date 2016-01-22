@@ -7,7 +7,7 @@
 
 </head>
 <body ng-controller="bacon">
-	<h2 class=bacon> BACON BACON OM NOM NOM </h2>
+	<h2 class=bacon> BACON BACON OM NOM NOM {{punctuation}} </h2>
 	<div ng-mouseenter="mouseEnter()" ng-class="{colorChange: switch}" ng-mouseleave="mouseLeave()">
 		<p>Bacon ipsum dolor amet exercitation est ad alcatra ball tip filet mignon pig tongue chuck. Venison ribeye cillum in ut mollit. Leberkas ribeye eiusmod excepteur andouille cillum. Spare ribs duis dolore labore pastrami. Biltong magna kevin beef tri-tip tail chuck. </p>
 
@@ -17,7 +17,7 @@
 
 	</div>
 
-		<a ng-hide="hideLink()" href="http://bacon.com">Types of Bacon</a>
+		<a ng-click="hideLink($event)" href="http://bacon.com" ng-if="nope">Types of Bacon</a>
 
 
 
